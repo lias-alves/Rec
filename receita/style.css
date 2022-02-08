@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(243, 138, 33);
+}
+
+.con-doc {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+i{
+  color: rgb(57, 57, 133);
+}
+
+@media screen and (max-width: 600px) {
+    img{
+        width: 350px;
+    }
+}

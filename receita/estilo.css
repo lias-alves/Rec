@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+h6{
+    color: rgb(255, 0, 51);
+}
+.canteiner-ver{
+
+    text-align: right;
+}
+.gif{
+    flex: 2;
+    display: block;
+    align-items: center;
+    justify-content: flex-end;
+}
+.git{
+    width: 200px;
+    height: 100px;
+    border-radius: 70px;
+    object-fit: cover;
+
+}
+
+
+/*css flexbox*/
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1  200px;
+    margin: 10px;
+}
+
